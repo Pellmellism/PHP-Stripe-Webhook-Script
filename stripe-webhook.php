@@ -2,6 +2,7 @@
 /*******************************************************************************
  * 
  * Created 12/16/14 - contact John at pellmllism@gmail.com
+ * Check for updates at https://github.com/Pellmellism/PHP-Stripe-Webhook-Script
  * 
  * INSTRUCTIONS
  * Host this page and take note of the URL
