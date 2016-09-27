@@ -30,121 +30,121 @@ $type = searchArrayValueByKey($event_json, 'type'); // Check the type of event s
 switch ($type) {									// depending on the event fired by Stripe, do something different. 
     case "account.updated":
 		// do something
-		
+		break;
     case "balance.available":
 		// do something
-		
+		break;
     case "charge.captured":
 		// do something
-		
+		break;
     case "charge.refunded":
 		// do something
-		
+		break;
     case "charge.succeeded":
 		// do something
-		
+		break;
     case "charge.updated":
 		// do something
-		
+		break;
     case "charge.failed":
 		// do something
-		
+		break;
     case "charge.dispute.created":
 		// do something
-		
+		break;
     case "charge.dispute.updated":
 		// do something
-		
+		break;
     case "charge.dispute.closed":
 		// do something
-		
+		break;
     case "coupon.created":
 		// do something
-		
+		break;
     case "coupon.deleted":
 		// do something
-		
+		break;
     case "customer.created":
 		// do something
-		
+		break;
     case "customer.updated":
 		// do something
-		
+		break;
     case "customer.deleted":
 		// do something
-		
+		break;
     case "customer.card.created":
 		// do something
-		
+		break;
     case "customer.card.updated":
 		// do something
-		
+		break;
     case "customer.card.deleted":
 		// do something
-		
+		break;
     case "customer.discount.created":
 		// do something
-		
+		break;
     case "customer.discount.updated":
 		// do something
-		
+		break;
     case "customer.discount.deleted":
 		// do something
-		
+		break;
     case "customer.subscription.created":
 		// do something
-		
+		break;
     case "customer.subscription.updated":
 		// do something
-		
+		break;
     case "customer.subscription.deleted":
 		// do something
-		
+		break;
     case "customer.subscription.trial_will_end":
 		// do something
-		
+		break;
     case "invoice.created":
 		// do something
-		
+		break;
     case "invoice.updated":
 		// do something
-		
+		break;
     case "invoice.payment_succeeded":
 		// do something
-		
+		break;
     case "invoice.payment_failed":
 		// do something
-		
+		break;
     case "invoiceitem.created":
 		// do something
-		
+		break;
     case "invoiceitem.updated":
 		// do something
-		
+		break;
     case "invoiceitem.deleted":
 		// do something
-		
+		break;
     case "plan.created":
 		// do something
-		
+		break;
     case "plan.updated":
 		// do something
-		
+		break;
     case "plan.deleted":
 		// do something
-		
+		break;
     case "transfer.created":
 		// do something
-		
+		break;
     case "transfer.updated":
 		// do something
-		
+		break;
     case "transfer.paid":
 		// do something
-		
+		break;
     case "transfer.failed":
 		// do something
-		
+		break;
     default:
 		// An error has occured, this was not a Stripe.com event - log into your Stripe.com account and check the log.
 		
